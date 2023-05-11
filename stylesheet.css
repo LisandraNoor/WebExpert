@@ -1,0 +1,93 @@
+#edit-title, #save-user {
+	display: none;
+}
+
+.container {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+#search {
+	margin-top: 20px;
+	width: 50%;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	border-color: lightgray;
+	border-style: solid;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	width: 25%;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: lightgray 1px solid;
+}
+
+th, td {
+	padding: 5px;
+}
+
+td {
+text-align: left;
+}
+
+td:last-child {
+text-align: center;
+}
+
+td button {
+	border: 2px solid;
+	border-radius: 5px;
+	background: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.update-user {
+	border-color: #228B22;
+	color: #228B22;
+}
+
+.delete-user {
+	border-color: #B22222;
+	color: #B22222;
+}
+
+.form {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	border-radius: 15px;
+	width: 25%;
+	height: 150px;
+	border: 2px solid black;
+}
+
+.form label {
+	font-weight: bold;
+}
+
+.form input {
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.form button {
+	margin-top: 20px;
+	border: 2px solid black;
+	color: black;
+	background: none;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 5px 20px 5px 20px;
+}
